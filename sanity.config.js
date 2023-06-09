@@ -7,8 +7,8 @@ export default defineConfig({
   name: 'default',
   title: 'blue-mongoose',
 
-  projectId: 'r78pcm0h',
-  dataset: 'ccf_examples',
+  projectId: process.env.SANITY_STUDIO_EXAMPLE_PROJECT_ID,
+  dataset: process.env.SANITY_STUDIO_EXAMPLE_DATASET,
 
   plugins: [deskTool(), visionTool()],
 
