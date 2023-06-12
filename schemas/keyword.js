@@ -9,7 +9,7 @@ export default {
       title: 'SEO Keyword'
     },
     {
-      name: 'keywordDescription',
+      name: 'description',
       type: 'string',
       title: 'Keyword Description'
     }

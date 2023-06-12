@@ -4,7 +4,7 @@ export default {
   type: 'object',
   fields: [
     {
-      name: 'aReferenceUrl',
+      name: 'referenceUrl',
       type: 'url',
       title: 'URL'
     },

@@ -75,9 +75,9 @@ export default {
       fieldset: 'content'
     },
     {
-      type: 'array',
       name: 'keywordList',
       title: 'Keyword List',
+      type: 'array',
       of: [{
         type: 'reference',
         to: [{ type: 'keyword' }]

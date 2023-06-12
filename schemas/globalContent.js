@@ -4,12 +4,12 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'mainheadline',
+      name: 'headline',
       type: 'string',
       title: 'Headline for top of home page'
     },
     {
-      name: 'mainintro',
+      name: 'intro',
       type: 'text',
       title: 'Short Intro for home page'
     }
