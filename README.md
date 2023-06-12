@@ -1,5 +1,26 @@
 # Example Sanity Studio Setup
 
+## Logging Into Sanity with the CLI
+
+Before you can do anything, you need the following:
+
+1. The sanity CLI, per the repo & docs at: [Sanity-io/sanity](https://github.com/sanity-io/sanity)
+1. A Sanity.io account
+2. A project, noting the project ID (which is used in the environment variables, below)
+3. A dataset that you can edit, noting the name (also used in environment varialbes, below)
+
+Once you have those, you can [log into sanity](https://www.sanity.io/docs/login#102f2ab26ef5) with:
+
+`sanity login`
+
+This will launch a browser window for you to log in with the credentials, above.  The project ID and Dataset will be used in the next section.
+
+*If you have SAML SSO enabled on your Sanity account, the login is slightly different:*
+
+`sanity login --sso <slug>`
+
+The `<slug>` value is the name of your organization, as defined when your org and Sanity set up your accounts and contract.
+
 ## To use:
 
 1. Ensure you have a Sanity project and dataset created.  That needs to be done on https://sanity.io before starting with this project.
