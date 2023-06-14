@@ -47,7 +47,7 @@ export default {
       name: 'slug',
       title: 'Slug',
       options: {
-        source: 'articleTitle',
+        source: 'title',
         maxLength: 200,
         slugify: input => input.toLowerCase().replace(/\s+/g, '-').replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, "").slice(0, 200)
       },
